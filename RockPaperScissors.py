@@ -15,9 +15,9 @@ def get_ans ():
   return move
  
 
-class bot :
+
  
- def __init__(self):
+def bot():
   bmove = ""
   count = range(3)
   
@@ -35,20 +35,22 @@ print("3.Scissors")
 # Game
 
 player_ans = get_ans()
-bot_ans = bot
+bot_ans = bot()
 
 if player_ans and bot_ans ==  "Rock" :
  
  print("So the match is equal")
 
-elif player_ans and bot_ans ==  "Paper" :
+elif player_ans and bot_ans == "Paper":
  
  print("So the match is equal")
 
-elif player_ans and bot_ans ==  "Scissors" :
+elif player_ans and bot_ans == "Scissors":
  
  print("So the match is equal")
 
-# 6
+if player_ans == "Rock" and bot_ans == "Paper":
+
+    print("The bot won!")
 
 
