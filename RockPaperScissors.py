@@ -1,4 +1,5 @@
-def get_ans (): 
+
+def get_ans ():
   while True : 
    try:
     ans = int(input("Choose one of the following : "))
@@ -6,6 +7,11 @@ def get_ans ():
     print("Enter the numbers you stupid! Try again!")
    else :
     break
+
+
+  if ans == 1 or 2 or 3:
+   pass
+  else : get_ans()
   
   if ans == 1 :
    move = "Rock"
@@ -49,8 +55,20 @@ elif player_ans and bot_ans == "Scissors":
  
  print("So the match is equal")
 
-if player_ans == "Rock" and bot_ans == "Paper":
+
+elif player_ans == "Rock" and bot_ans == "Paper":
 
     print("The bot won!")
+
+
+elif player_ans == "Rock" and bot_ans == "Scissors":
+
+    print("You won!")
+
+elif player_ans == "Paper" and bot_ans == "Scissors":
+
+    print("The bot won!")
+
+
 
 
