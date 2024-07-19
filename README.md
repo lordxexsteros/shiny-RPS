@@ -6,8 +6,10 @@ Clone the Repository:
 
 ```bash
  git clone <https://github.com/lordxexsteros/shiny-RPS.git>
- Navigate to the Directory:
-```
+ ```
+
+## Navigate to the Directory:
+
 ```bash
 cd rock-paper-scissors-python
 ```
@@ -16,18 +18,24 @@ cd rock-paper-scissors-python
 python rps_game.py
 
 
-
-
 ## Game Instructions:
 
 You will be prompted to enter your choice: rock, paper, or scissors.
+
 The computer will randomly select its choice.
+
 The winner for each round will be determined based on the classic rules:
+
 Rock crushes Scissors
+
 Scissors cuts Paper
+
 Paper covers Rock
+
 You can choose to play again after each round.
+
 Enjoy the Game!
+
 
 # Example Gameplay
 Welcome to Rock, Paper, Scissors!
